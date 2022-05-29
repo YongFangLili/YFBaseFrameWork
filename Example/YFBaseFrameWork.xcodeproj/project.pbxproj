@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2B74A01F9C6270844F9DF14C /* Pods-YFBaseFrameWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFBaseFrameWork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YFBaseFrameWork_Tests/Pods-YFBaseFrameWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		334A3ABA8265771B1F09B016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		334A3ABA8265771B1F09B016 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5315DECEEA6773A9C8A14722 /* Pods-YFBaseFrameWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFBaseFrameWork_Tests.release.xcconfig"; path = "Target Support Files/Pods-YFBaseFrameWork_Tests/Pods-YFBaseFrameWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YFBaseFrameWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFBaseFrameWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		968B018F8910BE88D5AA65E8 /* Pods-YFBaseFrameWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFBaseFrameWork_Example.release.xcconfig"; path = "Target Support Files/Pods-YFBaseFrameWork_Example/Pods-YFBaseFrameWork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C17BEFE4834C4F579FBCC339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CBAB839DD251486CC2FD3B90 /* YFBaseFrameWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YFBaseFrameWork.podspec; path = ../YFBaseFrameWork.podspec; sourceTree = "<group>"; };
+		C17BEFE4834C4F579FBCC339 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CBAB839DD251486CC2FD3B90 /* YFBaseFrameWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YFBaseFrameWork.podspec; path = ../YFBaseFrameWork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED7D7388B29EFD77DFACC500 /* Pods-YFBaseFrameWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFBaseFrameWork_Example.debug.xcconfig"; path = "Target Support Files/Pods-YFBaseFrameWork_Example/Pods-YFBaseFrameWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FEA6DA7B6FF4946566CA991F /* Pods_YFBaseFrameWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFBaseFrameWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				2B74A01F9C6270844F9DF14C /* Pods-YFBaseFrameWork_Tests.debug.xcconfig */,
 				5315DECEEA6773A9C8A14722 /* Pods-YFBaseFrameWork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

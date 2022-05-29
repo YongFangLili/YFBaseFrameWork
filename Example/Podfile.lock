@@ -1,0 +1,16 @@
+PODS:
+  - YFBaseFrameWork (0.1.0)
+
+DEPENDENCIES:
+  - YFBaseFrameWork (from `../`)
+
+EXTERNAL SOURCES:
+  YFBaseFrameWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YFBaseFrameWork: 54b5897efe478c013a4402204ad7772f59a8d55d
+
+PODFILE CHECKSUM: 1042553e7e9f05139b7649cb9de8ba96fce9c55c
+
+COCOAPODS: 1.11.3

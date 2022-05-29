@@ -1,0 +1,6 @@
+framework module YFBaseFrameWork {
+  umbrella header "YFBaseFrameWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
